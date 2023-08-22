@@ -1,0 +1,124 @@
+.bg-red {
+    background: red;
+    color: #fff;
+}
+.bg-blue {
+    background: blue;
+    color: #fff;
+}
+.bg-green {
+    background: green;
+    color: #fff;
+}
+.bg-orange {
+    background: orange;
+    color: #fff;
+}
+.bg-yellow {
+    background: yellow;
+    color: #000;
+}
+.bg-black {
+    background: black;
+    color: #fff;
+}
+.cont-100 {
+    width: 100%;
+}
+.cont-50 {
+    width: 50%;
+}
+.cont-33 {
+    width: 33.3333%;
+}
+.cont-25 {
+    width: 25%;
+}
+.vers {
+    display: flex;
+    flex-wrap: wrap;
+}
+.display-mobile {
+    display: none;
+}
+.display-desktop {
+    display: block;
+}
+/*Rozdzielczość dla Laptopów */
+@media (max-width: 1399.98px) {
+    .cont-50 {
+        width: 100%;
+    }
+}
+/*Rozdzielczość dla Laptopów / Tabletów */
+@media (max-width: 1199.98px) {
+    .cont-33 {
+        width: 50%;
+    }
+}
+/*Rozdzielczość dla Tabletów */
+@media (max-width: 991.98px) {
+    .display-mobile {
+        display: block;
+    }
+    .display-desktop {
+        display: none;
+    }
+    .cont-25 {
+        width: 50%;
+    }
+    .fixed-top {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+}
+/*Rozdzielczość dla Telefonów - Poziomo */
+@media (max-width: 767.98px) {
+    .cont-25 {
+        width: 100%;
+    }
+    .cont-33 {
+        width: 100%;
+    }
+    h2, h3, h4  {
+        font-size: 2em;
+    }
+}
+
+/*Rozdzielczość dla Telefonów - Pionowo */
+@media (max-width: 575.98px) {
+    .bg-red {
+        background: white;
+        color: #000;
+    }
+    .bg-blue {
+        background: white;
+        color: #000;
+    }
+    .bg-green {
+        background: white;
+        color: #000;
+    }
+    .bg-orange {
+        background: white;
+        color: #000;
+    }
+    .bg-yellow {
+        background: white;
+        color: #000;
+    }
+    .bg-black {
+        background: white;
+        color: #000;
+    }
+    span {
+        color: red;
+    }
+
+    .fixed-top {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+}

@@ -1,0 +1,274 @@
+:root {
+    --color1: #5e87eb;
+    --color2: #0056b3;
+    --color3: #333;
+    --color4: #555;
+    --color5: #635CDB;
+    --color6: #f8f8f8;
+    --colorWhite: #fff;
+    --colorGold: #ffce39;
+    
+    --font1: 'Cabin', sans-serif;
+    --bg1: url('../img/home-bg.jpg') center center;
+}
+body {
+    font-family: var(--font1);
+}
+p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--color4);
+}
+.container {
+    max-width: 1140px;
+}
+.navbar .navbar-nav li a {
+    color: var(--color4);
+    font-size: 15px;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.button-menu {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0px;
+}
+.button-menu li a {
+    padding: 7px 25px!important;
+    background: var(--color1);
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--colorWhite);
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+.button-menu li a:hover {
+    background: var(--color2);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+.navbar-toggler svg {
+    width: 40px;
+    height: 40px;
+    fill: var(--color3);
+}
+.btn-1 {
+    color: var(--color1);
+    background: var(--colorWhite);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 40px;
+    box-shadow: 0 7px 25px rgb(123, 104, 238,  0.25);
+    border-radius: 20px;
+    font-weight: 600;
+}
+.btn-2 {
+    color: var(--colorWhite);
+    background: var(--color1);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 40px;
+    box-shadow: 0 7px 25px rgb(123, 104, 238,  0.25);
+    border-radius: 20px;
+    font-weight: 600;
+}
+.btn-3 {
+    color: var(--color1);
+    background: var(--colorWhite);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 40px;
+    box-shadow: 0 7px 25px rgb(123, 104, 238,  0.25);
+    border-radius: 20px;
+    font-weight: 600;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.btn-3:hover {
+    background: var(--color2);
+    color: var(--colorWhite);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+header {
+    min-height: 70vh;
+    height: 70vh;
+    background: var(--bg1);
+    background-size: cover;
+}
+
+header h1, .h1 {
+    font-size: 35px;
+    color: var(--color3);
+    line-height: 1.4;
+}
+header h1 span {
+    color: var(--color1);
+}
+.img100 {
+    width: 100%;
+    height: auto;
+}
+header .container,header .container .row,header .container .row .col-lg-6 {
+    height: 100%;
+}
+section {
+    padding: 100px 0px;
+}
+.box {
+    box-shadow: 0px 2px 25px 0px rgb(110, 110, 110, 0.12);
+    background: var(--colorWhite);
+    padding: 50px;
+    border-radius: 20px;
+}
+.box h2 {
+    font-size: 18px;
+}
+.box a {
+    color: var(--color5);
+}
+.box svg {
+    fill: var(--color5);
+    width: 30px;
+    height: 30px;
+}
+.box span {
+    background: var(--color6);
+    padding: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.section-2 {
+    background: var(--color6);
+}
+.section-2-list-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-2-list {
+    background: var(--colorWhite);
+    border-left: solid 2px var(--color5);
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    border-radius: 0px 0px 20px 0px;
+}
+.section-2-list-1 {
+    background: var(--color5);
+    border-left: solid 2px var(--color5);
+    color: var(--colorWhite);
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    border-radius: 0px 0px 20px 0px;
+}
+.section-3 {
+    background: var(--colorWhite);
+}
+.section-4 {
+    background-image:url(https://barakahit.net/html/Techmax/assets/img/banner-bg.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.section-4 h2 {
+    color: var(--colorWhite);
+    text-align: center;
+    font-size: 50px;
+}
+.section-4 p {
+    color: var(--colorWhite);
+    text-align: center;
+    font-size: 15px;
+}
+.section-5 {
+    text-align: center;
+    background-color: var(--colorWhite);
+}
+.section-5 .col-lg-3 img {
+    width: 100%;
+    height: auto;
+}
+.section-5 h2 {
+    padding-bottom: 80px;
+}
+.section-5 h3 {
+    font-size: 20px;
+}
+.section-5 span {
+    font-size: 15px;
+    color: var(--color1); 
+}
+.section-6 {
+    background-color: var(--color6);
+    text-align: center;
+}
+.section-6 h2 {
+    color: var(--color7);
+    padding: 10px 0px;
+}
+.section-6 .star svg {
+    width: 18px;
+    height: 16px;
+    fill: var(--colorGold);
+}
+.section-6 img {
+    border-radius: 50%;
+    border: 5px solid #f8f8f8;
+    width: 90px;
+    margin: 0 auto;
+}
+.section-7 .box {
+    padding: 0px;
+}
+.section-7 .box img {
+    width: 100%;
+    height: auto;
+}
+.section-7 h2 {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.section-7 h2:hover {
+    color: var(--color1);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.section-7 h2, p {
+    padding: 15px 30px;
+}
+.section-7 .btn-3 {  
+    margin: 15px;
+}
+.section-8 {
+    background: var(--color6);
+    padding: 50px;
+}
+.section-8 img {
+    width: 100%;
+    height: auto;
+}
+footer {
+    background-image: url('../img/banner-bg.jpg');
+    width: 100%;
+    height: 200px;
+    
+}

@@ -1,0 +1,107 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.d-flex {
+    display: flex;
+}
+.nav-1 ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+}
+
+.nav-1 ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 12px;
+}
+.nav-1 ul li a:hover {
+    color: #fcc531;
+}
+.call {
+    background: #fcc531;
+    border-radius: 5px;
+}
+.call:hover {
+    background: #000;
+    color: #fff!important;
+}
+.nav-2 {
+    background: #000;
+}
+.nav-2 ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-right: auto;
+}
+
+.nav-2 ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 12px;
+}
+.nav-2 ul li a:hover {
+    color: #fcc531;
+}
+.nav-3 ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-3 ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 12px;
+}
+.nav-3 ul li a:hover {
+    color: #fcc531;
+}
+.nav-3 .container div  {
+    text-align: center;
+}
+.nav-4 {
+    width: 200px;
+    height: 100vh;
+    background: #fcc531;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+.nav-4 div {
+    background: #fff;
+    padding: 10px;
+    width: calc(100% - 20px);
+}
+.nav-4 div img {
+    width: 100%;
+    height: auto;
+}
+.nav-4 ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.nav-4 ul li a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.nav-4 ul li a:hover {
+    color: #fff;
+    background: #000;
+}

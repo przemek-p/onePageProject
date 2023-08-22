@@ -1,0 +1,36 @@
+.bg-red {
+    background: red;
+    color: #fff;
+}
+.bg-blue {
+    background: blue;
+    color: #fff;
+}
+.bg-green {
+    background: green;
+    color: #fff;
+}
+.bg-orange {
+    background: orange;
+    color: #fff;
+}
+.bg-yellow {
+    background: yellow;
+    color: #000;
+}
+.bg-black {
+    background: black;
+    color: #fff;
+}
+.cont-100 {
+    width: 100%;
+}
+.cont-50 {
+    width: 50%;
+}
+.cont-33 {
+    width: 33.3333%;
+}
+.cont-25 {
+    width: 25%;
+}

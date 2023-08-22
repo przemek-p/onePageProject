@@ -1,0 +1,67 @@
+:root {
+    --color1: red;
+    --color2: blue;
+    --color3: green;
+    --color4: yellow;
+    
+    --font1: 52px;
+    --font2: 42px;
+    --font3: 32px;
+    --font4: 22px;
+    
+    --fontfamily1: 'Roboto', sans-serif;
+    --fontfamily2: 'Oswald', sans-serif;
+    --fontfamily3: 'Silkscreen', cursive;
+    
+    --fontweight1: 700;
+    --fontweight2: 200;
+    --fontweight3: 300;
+    --fontweight4: 400;
+    --fontweight5: 500;
+    --fontweight6: 600;
+    --fontweight7: 700;
+    --fontweight8: 800;
+    --fontweight9: 900;
+    
+    --padding1: 10px;
+    --padding2: 20px;
+    --padding3: 30px;
+    --padding4: 40px;
+}
+h1 svg {
+    font-size: var(--font1);
+    font-family: var(--fontfamily1);
+    font-weight: var(--fontweight1);
+    padding: 10px 20px;
+}
+h2 {
+    font-size: var(--font2);
+    font-family: var(--fontfamily2);
+}
+h3 {
+    font-size: var(--font3);
+    font-family: var(--fontfamily3);
+}
+h4 {
+    font-size: var(--font4);
+}
+.box-1 {
+    background: var(--color1);
+    width: 500px;
+    height: 50px;
+}
+.box-2 {
+    background: var(--color2);
+    width: 500px;
+    height: 50px;
+}
+.box-3 {
+    background: var(--color3);
+    width: 500px;
+    height: 50px;
+}
+.box-4 {
+    background: var(--color4);
+    width: 500px;
+    height: 50px;
+}
